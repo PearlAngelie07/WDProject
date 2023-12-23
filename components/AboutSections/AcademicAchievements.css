@@ -1,0 +1,85 @@
+/* Achievements.css */
+
+.achievements-container {
+  margin: 20px;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block; /* Display each item in a block */
+}
+
+/* Display items in each category in a single column */
+.elementary-list,
+.high-school-list,
+.college-list {
+  display: flex;
+  flex-direction: column;
+}
+/* Achievements.css */
+
+.achievements-container {
+  margin: 20px;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: black !important; /* Corrected to ensure the list items are black */
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bolder; /* Display each item in a block */
+}
+
+/* Display items in each category in a single column */
+.elementary-list,
+.high-school-list,
+.college-list {
+  display: flex;
+  flex-direction: column;
+}

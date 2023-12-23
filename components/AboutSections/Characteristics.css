@@ -1,0 +1,27 @@
+/* Add this to your CSS file */
+
+.typing-transition {
+    overflow: hidden;
+    border-right: 2px solid white !important; /* You can adjust the border style */
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: 2px; /* You can adjust the letter spacing */
+    animation: typing 1s steps(20, end), blink-caret 0.5s step-end infinite;
+    margin-top: 10px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #fff; /* You can adjust the border color */
+    }
+  }
+  

@@ -1,0 +1,63 @@
+/* Contact.css */
+
+ul {
+  list-style: none;
+  padding: 0; /* Remove the padding to reduce space */
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  color: black !important; /* Set your desired default color */
+}
+
+a {
+  color: black !important; /* Set your desired link color */
+  text-decoration: none;
+  /* Add some spacing between icon and text */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+.contact-container {
+  background-size: cover; /* Ensure the background image covers the entire container */
+  padding: 20px;
+  border-radius: 10px;
+  color: black !important; /* Set text color to white for better visibility */
+  display: flex;
+  justify-content: flex-end; /* Align items to the start and end */
+  align-items: center;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.contact-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px; /* Adjust the width as needed */
+  text-align: right; /* Align text to the left */
+  color: black !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  margin-right: 20%;
+}
+
+.contact-details a {
+  color: black !important;
+  margin-right: 5px;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+.contact-details h2 {
+  margin-bottom: 15px;
+}
+
+span {
+  color: black !important;
+  margin-right: 1px !important;
+}

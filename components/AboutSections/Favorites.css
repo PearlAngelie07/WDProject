@@ -1,0 +1,51 @@
+/* Favorites.css */
+
+.favorites-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 50vh;
+}
+
+.favorites-list {
+    position: relative;
+    perspective: 1000px;
+}
+
+.favorite-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 50%;
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.favorite-item.visible {
+    opacity: 1;
+}
+
+.favorite-item.enter-left {
+    transform: translateX(-100%);
+}
+
+.favorite-item.enter-right {
+    transform: translateX(100%);
+}
+
+.favorite-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.favorite-content {
+    font-size: 25px;
+    margin-top: 10px;
+    text-decoration: underline;
+}

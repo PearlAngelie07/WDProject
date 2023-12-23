@@ -1,0 +1,30 @@
+/* School.css */
+
+.school-container {
+  margin: 20px;
+  color: white; /* Set the text color to white */
+}
+
+.school-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.school-list div {
+  margin-bottom: 20px;
+}
+
+.school-list h2 {
+  color: black; /* Set the text color to white */
+  text-decoration: underline; /* Add this line to underline the text */
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  color: black !important; /* Set the text color to white using !important */
+  background-color: transparent !important; /* Set background color to transparent using !important */
+  font-weight: bolder;
+  font-style: inherit;
+  text-decoration: dotted;
+}

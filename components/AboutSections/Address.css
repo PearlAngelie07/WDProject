@@ -1,0 +1,29 @@
+/* Address.css */
+
+.address-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.address-item {
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: black; /* Set the text color to white */
+  background-color: rgb(75, 129, 216); /* Set the background color to black */
+  padding: 5px 10px; /* Add padding for better visibility */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}

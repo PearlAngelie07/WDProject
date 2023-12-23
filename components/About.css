@@ -1,0 +1,58 @@
+/* About.css */
+
+.about-container {
+  text-align: center;
+  padding: 20px;
+  width: 100vw; /* Set to 100% viewport width */
+  height: 100vh; /* Set to 100% viewport height */
+  margin: 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Styles for medium-sized screens */
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 15px;
+  }
+}
+
+/* Styles for small screens (e.g., mobile devices) */
+@media screen and (max-width: 480px) {
+  .about-container {
+    padding: 10px;
+  }
+}
